@@ -14,6 +14,7 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as checkAtsScore from "../checkAtsScore.js";
 import type * as resume from "../resume.js";
 
 /**
@@ -25,6 +26,7 @@ import type * as resume from "../resume.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  checkAtsScore: typeof checkAtsScore;
   resume: typeof resume;
 }>;
 export declare const api: FilterApi<

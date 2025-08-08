@@ -91,7 +91,7 @@ export default function Home() {
 
               {/* CTA Button */}
               <motion.div
-                className="flex justify-center md:justify-start"
+                className="flex gap-4 justify-center md:justify-start"
                 variants={item}
               >
                 <Button
@@ -101,6 +101,17 @@ export default function Home() {
                   Create Free Resume
                   <ArrowRight size={18} className="ml-2 mt-[2.5px]" />
                 </Button>
+                 <Button
+                      variant="outline"
+                      className="px-8 shadow-md group shadow-primary/30 py-8"
+                      onClick={() => router.push("/Ats")}
+                    >
+                      Analyze Resume
+                      <ArrowRight
+                        size={18}
+                        className="ml-2 group-hover:ml-4 transition-all mt-[2.5px]"
+                      />
+                    </Button>
               </motion.div>
             </div>
           </motion.div>
