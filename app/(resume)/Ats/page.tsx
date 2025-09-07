@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 import ChooseTemplates from "@/components/ChooseTemplates";
-import ATSChecker from "@/components/ATSChecker";
+
 
 const Page = () => {
   return (
@@ -21,7 +21,7 @@ const Page = () => {
         </div>
 
         <div className="max-w-[90%] md:max-w-[85%] mx-auto flex items-center justify-start">
-          <ATSChecker/>
+          
         </div>
       </div>
     </>

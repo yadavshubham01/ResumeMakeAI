@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/QuillEditors/Quill.modules", "components/QuillEditors/QuillModules.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/QuillEditors/Quill.modules", "components/QuillEditors/QuillModules.js", "components/analyse/GeneralATS.jsx"],
   "exclude": ["node_modules"]
 }
