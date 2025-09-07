@@ -17,13 +17,13 @@ const Page = () => {
         <div className="w-full lg:w-[50%]  lg:order-1">
           <div className="lg:pl-6 flex flex-col gap-4 lg:gap-2 text-left md:text-center lg:text-left">
             <p className="text-primary font-semibold text-lg lg:text-xl">
-              Say hello to ResumeCraft
+              Say hello to ResumeMake
             </p>
             <h1 className="text-3xl lg:text-5xl max-w-full font-[650] tracking-wide leading-[1.15]">
               Get your resume ready in 3 steps
             </h1>
             <p className="max-w-full lg:max-w-[70%] text-sm lg:text-base mx-auto lg:mx-0">
-              Resume Craft gives you the tools and guidance you need to create a
+              Resume Make gives you the tools and guidance you need to create a
               truly professional resume that highlights your skills and
               experience.
             </p>

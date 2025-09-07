@@ -28,7 +28,8 @@ export interface HeaderSection extends BaseSection {
     location?: string;
     summary?: string;
     photo?: string;
-    socialLinks : SocialLink[]
+    role?: string;
+    socialLinks: SocialLink[];
   };
   isVisible: boolean;
   orderNumber: number;
@@ -103,9 +104,10 @@ export interface EducationSection extends BaseSection {
 export interface CustomSection extends BaseSection {
   type: "custom";
   content: {
-    sectionTitle : string;
-    sectionDescription : string;
-    sectionNumber : number;
+    sectionTitle: string;
+    sectionDescription: string;
+    sectionNumber: number;
+    sectionDirection? : string;
   };
   isVisible: boolean;
   orderNumber: number;
@@ -131,5 +133,7 @@ export interface ResumeTemplate {
     primaryColor: string;
     photo: boolean;
     columns: number;
+    textSize: string;
+    margin : string;
   };
 }

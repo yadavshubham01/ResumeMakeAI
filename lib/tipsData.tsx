@@ -10,7 +10,7 @@ export const tipsData: TipsType[] = [
   {
     sec: "introduction",
     topText: "Ready to begin?",
-    mainText: "Craft your standout resume",
+    mainText: "Make your standout resume",
     bottomMainText: "Our AI-powered tools streamline the writing process!",
   },
   {
@@ -41,7 +41,7 @@ export const tipsData: TipsType[] = [
     sec: "skills",
     topText: "Fantastic progress! Next up → Skills",
     mainText: "Let's spotlight your unique abilities",
-    bottomMainText: "Craft a skills section that truly stands out.",
+    bottomMainText: "Make a skills section that truly stands out.",
     bottomText:
       "Utilize our curated suggestions to emphasize your strengths and boost your resume's visibility to potential employers.",
   },

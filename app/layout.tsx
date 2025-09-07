@@ -11,8 +11,8 @@ import { useRouter } from "next/navigation";
 import NextLoader from "@/providers/NextLoader";
 
 export const metadata: Metadata = {
-  title: "Resume Craft",
-  description: "Craft a winning resume in minutes",
+  title: "Resume Make",
+  description: "Make a winning resume in minutes",
 };
 
 export default function RootLayout({

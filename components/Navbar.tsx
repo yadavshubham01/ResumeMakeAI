@@ -37,7 +37,7 @@ const Navbar = () => {
             <File className="size-6 md:size-8" />
             <Link href="/">
               <h1 className="text-xl md:text-2xl font-semibold">
-                Resume<span className="text-primary">Craft</span>
+                Resume<span className="text-primary">Make</span>
               </h1>
             </Link>
           </div>
