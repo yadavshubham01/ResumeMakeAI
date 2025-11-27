@@ -10,10 +10,10 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - name : Checkout code
-    - uses: action/checkout@v3
+      uses: action/checkout@v3
 
     - name: Install Node
-    - uses: action/setup-node@v3
+      uses: action/setup-node@v3
       with:
         node-version: 20.4.1
 
