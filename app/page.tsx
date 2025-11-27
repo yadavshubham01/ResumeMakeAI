@@ -18,21 +18,7 @@ export default function Home() {
   const router = useRouter();
   const isMobile = useMobile();
 
-  // const oneTimeRef = useRef(false);
-  // const migration = useMutation(api.resume.migrateResumes);
 
-  // useEffect(() => {
-  //   if (!oneTimeRef.current) {
-  //     const promise = migration()
-  //       .then((res) => {
-  //         console.log(res, "yes");
-  //       })
-  //       .catch((err) => {
-  //         console.log(err, "no");
-  //       });
-  //     oneTimeRef.current = true;
-  //   }
-  // }, []);
 
   return (
     <div className="h-screen overflow-x-hidden">
@@ -101,17 +87,6 @@ export default function Home() {
                   Create Free Resume
                   <ArrowRight size={18} className="ml-2 mt-[2.5px]" />
                 </Button>
-                 <Button
-                      variant="outline"
-                      className="px-8 shadow-md group shadow-primary/30 py-8"
-                      onClick={() => router.push("/Ats")}
-                    >
-                      Analyze Resume
-                      <ArrowRight
-                        size={18}
-                        className="ml-2 group-hover:ml-4 transition-all mt-[2.5px]"
-                      />
-                    </Button>
               </motion.div>
             </div>
           </motion.div>
