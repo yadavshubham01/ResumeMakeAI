@@ -10,7 +10,7 @@ const NextLoader = () => {
 
   return (
     <NextTopLoader
-      color={isInBuildResume && isMobile ? "#fff" : "#E11D48"} // Blue for build-resume, Red for others
+      color={isInBuildResume && isMobile ? "#fff" : "#48e11d"} // Blue for build-resume, lime for others
       height={5}
       speed={150}
       zIndex={10000}
