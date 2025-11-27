@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 import ChooseTemplates from "@/components/ChooseTemplates";
-import ATSChecker from "@/components/ATSChecker";
+
 
 const Page = () => {
   return (
