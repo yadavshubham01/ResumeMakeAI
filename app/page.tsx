@@ -18,21 +18,7 @@ export default function Home() {
   const router = useRouter();
   const isMobile = useMobile();
 
-  // const oneTimeRef = useRef(false);
-  // const migration = useMutation(api.resume.migrateResumes);
 
-  // useEffect(() => {
-  //   if (!oneTimeRef.current) {
-  //     const promise = migration()
-  //       .then((res) => {
-  //         console.log(res, "yes");
-  //       })
-  //       .catch((err) => {
-  //         console.log(err, "no");
-  //       });
-  //     oneTimeRef.current = true;
-  //   }
-  // }, []);
 
   return (
     <div className="h-screen overflow-x-hidden">

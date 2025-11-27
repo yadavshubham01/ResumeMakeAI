@@ -19,10 +19,6 @@ const Page = () => {
             </p>
           </div>
         </div>
-
-        <div className="max-w-[90%] md:max-w-[85%] mx-auto flex items-center justify-start">
-          <ATSChecker/>
-        </div>
       </div>
     </>
   );
