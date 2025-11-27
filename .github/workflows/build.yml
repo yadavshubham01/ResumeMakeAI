@@ -1,24 +1,24 @@
 name: Build code
 
 on:
- push:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
   build:
-   runs-on: ubuntu-latest
-   steps:
-    - name : Checkout code
-      uses: action/checkout@v3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Install Node
-      uses: action/setup-node@v3
-      with:
-        node-version: 20.4.1
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.4.1
 
-    - name: Install Dependencies
-      run: npm install
-    
-    - name: Build code
-      run: npm run build
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build code
+        run: npm run build
